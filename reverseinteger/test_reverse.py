@@ -16,5 +16,3 @@ def test4():
 def test5():
     assert s.reverse(-2147483412)==-2143847412
 
-x=-2147483412
-print(x.__sizeof__())
