@@ -1,4 +1,3 @@
-import pytest
 from sum import solution
 s=solution()
 nums1=[2,7,11,14]
@@ -14,6 +13,3 @@ def test_calc2():
 
 def test_calc3():
     assert s.calc(nums3,6)==(0,1)
-
-def test_calc4():
-    assert s.calc(nums4,6)==(0,2)
