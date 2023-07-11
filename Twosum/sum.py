@@ -12,8 +12,5 @@ class solution:
             if flag:
                 break    
         return i,j
-            
+        
 
-nums=[3,2,3]
-s=solution()
-s.calc(nums,6)
